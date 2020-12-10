@@ -18,7 +18,7 @@ cd /etc/pihole
 
 # Remove whatever ends with "in-addr.arpa"
 sqlite3 pihole-FTL.db "delete from queries where domain like '%in-addr.arpa';"
-# Remove whatever contains with "ip6.arpa"
+# Remove whatever contains "ip6.arpa"
 sqlite3 pihole-FTL.db "delete from queries where domain like '%ip6.arpa%';"
 # Remove "empty"
 sqlite3 pihole-FTL.db "delete from queries where domain like 'empty';"
