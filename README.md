@@ -1,14 +1,14 @@
 # Rm-Pihole-querry (BETA)
 Removed unwanted queries every time this script was executed
 
-This is a very simple script that removes some querries from the pihole querry every time this was executed. This may help in improving the statics and removes those unwanted querries.
+This is a very simple script that removes some querries from the pihole query every time this was executed. This may help in improving the statics and removes those unwanted querries.
 
-This removes them in both the long term querry log, the 24-hour log and the recent 100 querries.
+This removes them in both the long term query log, the 24-hour log and the recent 100 queries.
 You may add this to the crontab and execute it every hour or so. Not suggest running it too often, as it needs to restart the pihole service.
 
 
 ## How to install
-Create a folder in any place you want. For this I would be creating it in /etc and naming it pihole_assist. (/etc/pihole_assist)  
+Create a folder in any place you want. For this, I would be creating it in /etc and naming it pihole_assist. (/etc/pihole_assist)  
 Create a file `clean.sh` inside the folder (/etc/pihole_assist/clean.sh) and copy the content of `clean.sh` of this repo and paste it on the `clean.sh` on your local machine.  
 Go to the folder you storted `clean.sh` (`cd /etc/pihole_assist`) and use `chmod +x clean.sh` in the terminal (Ctrl+Alt+T) to make it executable.  
 Try to execute it by typing `sudo ./clean.sh`.  
