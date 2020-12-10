@@ -1,11 +1,8 @@
 #!/bin/sh
 
-#####################################################################################################################
-#																										                                                          			#
-#	This is a very simple script that removes some querries from the pihole querry every time this was executed.	  #
-#	    This removes them in both the long term querry log, the 24-hour log and the recent 100 querries.	       	#
-#																												                                                          	#
-#####################################################################################################################
+
+#	This is a very simple script that removes some querries from the pihole querry every time this was executed.
+#	This removes them in both the long term querry log, the 24-hour log and the recent 100 querries.
 
 # Prints the date every echo. Add a "#" before the following line to remove it.
 alias echo='echo $(date)'
