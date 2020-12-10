@@ -12,7 +12,7 @@ Create a folder in any place you want. For this I would be creating it in /etc a
 Create a file `clean.sh` inside the folder (/etc/pihole_assist/clean.sh) and copy the content of `clean.sh` of this repo and paste it on the `clean.sh` on your local machine.  
 Go to the folder you storted `clean.sh` (`cd /etc/pihole_assist`) and use `chmod +x clean.sh` in the terminal (Ctrl+Alt+T) to make it executable.  
 Try to execute it by typing `sudo ./clean.sh`.  
-You should see something like this:  
+You should see something like this (replace test.sh with clean.sh, I was just testing):
 ![Sample Output](https://github.com/SodaWithoutSparkles/Rm-Pihole-querry/blob/main/sample%20output/Pihole_assist_sample_output.png?raw=true)
 Now querries ends with "in-addr.arpa", contains "ip6.arpa", and "empty" should be deleted. Go to the script to add/remove lines to remove your desired querries.  
 
