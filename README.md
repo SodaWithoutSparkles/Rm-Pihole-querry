@@ -21,6 +21,8 @@ You may add a crontab to execute this automatically.
 Type `sudo nano crontab -e` to edit.  
 In the crontab, move the cursor by using the arrow keys. Move to the last lines and add this line:  
 `15 0-5,9,13,17,21 * * * /etc/pihole_assist/clean.sh`  
+Sample Crontab (The line pointed by the Red Arrow):  
+![Sample Crontab](https://github.com/SodaWithoutSparkles/Rm-Pihole-querry/blob/main/sample%20output/Crontab.png?raw=true)  
 This would run the script on 00:15, 01:15, 02:15, 03:15, 04:15, 05:15, 09:15, 13:15, 17:15, 21:15.  
 You may use this if you want to monitor the output of the script to track if it worked properly:  
 `15 0-5,9,13,17,21 * * * /etc/pihole_assist/clean.sh > /home/pi/clean.log 2>&1`  
