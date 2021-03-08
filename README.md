@@ -3,6 +3,8 @@ Removed unwanted queries every time this script was executed
 
 This is a very simple script that removes some querries from the pihole query every time this was executed. This may help in improving the statics and removes those unwanted querries.
 
+The devs suggest not using it because it would permantly remove some stats that *might* be useful for debugging. Check out [this reddit post](https://www.reddit.com/r/pihole/comments/kacbjl/a_simple_script_to_remove_unwanted_queries_from/) where I post this repo to r/pihole
+
 This removes them in both the long term query log, the 24-hour log and the recent 100 queries.
 You may add this to the crontab and execute it every hour or so. Not suggest running it too often, as it needs to restart the pihole service.
 
